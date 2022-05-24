@@ -30,7 +30,7 @@ contract Transaction {
     }
 
     function virtualWithdraw(uint _amt) public onlyChild() returns (string memory) {
-        require(account >= _amt+10, "Insufficient Balance/Minimum balance required");
+        require(account >= _amt+10, "Insufficient Balance/Minimum balance 10 required");
         account -= _amt;
         return "Withdraw Successful";
     }
