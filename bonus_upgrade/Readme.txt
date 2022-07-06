@@ -8,4 +8,4 @@ Go to the link for front end - https://fantastic-jbworks.netlify.app/
 2. Deploy the contract with two different metamask accounts(let say Father & Son), 
    after successful deployment, you will get a newly deployed contract address, copy the address.
 3. Communicate the contract by Pasting the contract address.
-4. do the transaction accordingly.   
+4. do the transaction accordingly.
